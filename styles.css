@@ -1,0 +1,52 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#game-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.score-table {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#results {
+    background-color: #f8f9fa;
+    padding: 10px;
+}
+
+#countdown-timer {
+    font-size: 24px;
+    color: red;
+}
+
+.team-controls {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    border-radius: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+#submit-answer {
+    border-radius: 20px;
+}
+
+#start-game {
+    border-radius: 20px;
+}
+
+#countdown-timer {
+    display: none;
+}
